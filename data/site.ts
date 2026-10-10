@@ -10,6 +10,7 @@ export const site = {
   url: "https://atik.creates", // DUMMY
   email: "hello@atik.creates", // DUMMY
   calendarUrl: "https://cal.com/atik/intro", // DUMMY
+  formEndpoint: "https://formspree.io/f/YOUR_FORM_ID", // DUMMY — replace with your Formspree form ID
   offer: {
     note: "Pricing is flexible — every project's scope is different, so rates are always open to negotiation.",
     subject: "Project budget proposal",

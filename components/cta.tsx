@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Container, Eyebrow, Section } from "@/components/primitives";
 import { Reveal } from "@/components/reveal";
 import { Watermark } from "@/components/watermark";
+import { ContactForm } from "@/components/contact-form";
 import { cn } from "@/lib/cn";
 import { site } from "@/data/site";
 
@@ -69,6 +70,10 @@ export function Cta(): ReactNode {
                 Make me an offer
                 <Arrow className="transition-transform group-hover:translate-x-1" />
               </a>
+            </div>
+
+            <div className="card-surface mt-10 w-full max-w-xl p-5 text-left sm:p-6">
+              <ContactForm />
             </div>
 
             <div className="flex flex-col items-center gap-2 pt-2">
